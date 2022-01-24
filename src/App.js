@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './App.css';
 
 function App() {
-  const [imageOfTheDay, setImageOfTheDay] = useState(null);
+  const [imageOfTheDay, setImageOfTheDay] = useState({});
   useEffect(() => {
     getImage();
   }, []);
