@@ -1,7 +1,13 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-
+.nasa-header {
+  display: flex;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
